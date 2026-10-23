@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VibeFluid – Live wallpapers for Android that react to you</title>
+  <meta name="description" content="Twelve interactive live wallpapers for Android: touch-reactive water, real weather, a music visualizer, northern lights and 3D photo depth. Battery friendly, no ads, no account.">
+  <meta name="theme-color" content="#08040f">
+  <link rel="canonical" href="https://modoforgelabs.github.io/vibefluid/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="VibeFluid">
+  <meta property="og:title" content="VibeFluid – Live wallpapers that react to you">
+  <meta property="og:description" content="Touch-reactive water, real weather, a music visualizer and 3D photo depth. 12 live wallpapers for Android, no ads.">
+  <meta property="og:url" content="https://modoforgelabs.github.io/vibefluid/">
+  <meta property="og:image" content="https://modoforgelabs.github.io/vibefluid/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "VibeFluid",
+    "operatingSystem": "Android 8.0+",
+    "applicationCategory": "LifestyleApplication",
+    "description": "Interactive live wallpapers for Android: touch-reactive water, real weather, a music visualizer, northern lights and 3D photo depth.",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "publisher": { "@type": "Organization", "name": "ModoForge Labs" }
+  }
+  </script>
+
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="VibeFluid home">
+        <img src="assets/favicon.svg" alt="" width="32" height="32">
+        VibeFluid
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#wallpapers">Wallpapers</a>
+        <a class="hide-sm" href="#pricing">Pricing</a>
+        <a class="hide-sm" href="#faq">FAQ</a>
+        <a href="privacy/">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <canvas id="ripples" aria-hidden="true"></canvas>
+      <div class="wrap">
+        <div>
+          <span class="eyebrow">Live wallpapers for Android</span>
+          <h1 id="hero-title">Wallpapers that <span class="grad">react to you.</span></h1>
+          <p class="lede">
+            Ripples that follow your finger, a sky that shows your real weather, light that pulses to
+            your music and your own photo in 3D as you tilt the phone. Twelve live wallpapers, built to
+            stay easy on the battery.
+          </p>
+          <div class="cta">
+            <!-- When the app is live, replace this span with:
+                 <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.modoforge.vibefluid"> … Get it on Google Play</a> -->
+            <span class="btn btn-primary btn-soon" role="text">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3.6 1.8 13.3 12l-9.7 10.2c-.4-.2-.6-.6-.6-1.1V2.9c0-.5.2-.9.6-1.1Zm10.8 11.3 2.5 2.6-11.2 6.4 8.7-9Zm4-2.3 3 1.7c.8.5.8 1.6 0 2.1l-3 1.7-2.8-2.9 2.8-2.6ZM5.7 1.9l11.2 6.4-2.5 2.6-8.7-9Z"/></svg>
+              Coming soon to Google Play
+            </span>
+            <a class="btn btn-ghost" href="#wallpapers">See the wallpapers</a>
+          </div>
+          <p class="cta-note">8 wallpapers free · 4 one-time unlocks · No ads · No account</p>
+          <p class="touch-hint">Tip: touch or move over this area.</p>
+        </div>
+
+        <div class="phone" aria-label="Time of Day wallpaper moving from dawn to night">
+          <div class="screen cycle">
+            <img src="assets/img/mountain-dawn.jpg" alt="Mountain valley at dawn" width="710" height="1100">
+            <img src="assets/img/mountain-morning.jpg" alt="Mountain valley in the morning" width="710" height="1100" loading="lazy">
+            <img src="assets/img/mountain-dusk.jpg" alt="Mountain valley at dusk" width="710" height="1100" loading="lazy">
+            <img src="assets/img/mountain-night.jpg" alt="Mountain valley at night under a crescent moon" width="710" height="1100" loading="lazy">
+          </div>
+          <div class="notch"></div>
+          <span class="label">Time of Day · follows the sun</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="wallpapers" class="alt" aria-labelledby="wallpapers-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="wallpapers-title">Twelve live wallpapers, each with a trick.</h2>
+          <p>Every one is interactive or alive in some way, and you can preview each full screen before you set it.</p>
+        </div>
+
+        <div class="gallery">
+          <figure>
+            <div class="phone"><div class="screen"><img src="assets/img/mountain-night.jpg" alt="Time of Day wallpaper at night" loading="lazy" width="710" height="1100"></div><div class="notch"></div></div>
+            <figcaption>Time of Day<span>Dawn to night with the clock</span></figcaption>
+          </figure>
+          <figure>
+            <div class="phone"><div class="screen"><img src="assets/img/aurora.jpg" alt="Aurora wallpaper with green northern lights over dark hills" loading="lazy" width="896" height="1540"></div><div class="notch"></div></div>
+            <figcaption>Aurora<span>Tap to send a pulse</span></figcaption>
+          </figure>
+          <figure>
+            <div class="phone"><div class="screen"><img src="assets/img/music.jpg" alt="Music Visualiser wallpaper with a glowing orb and spectrum ring" loading="lazy" width="896" height="1540"></div><div class="notch"></div></div>
+            <figcaption>Music Visualiser<span>Pulses to what you play</span></figcaption>
+          </figure>
+          <figure>
+            <div class="phone"><div class="screen"><img src="assets/img/rain.jpg" alt="Rain on Glass wallpaper with drops on a fogged window" loading="lazy" width="896" height="1540"></div><div class="notch"></div></div>
+            <figcaption>Rain on Glass<span>Swipe to wipe the fog</span></figcaption>
+          </figure>
+          <figure>
+            <div class="phone"><div class="screen"><img src="assets/img/rays.jpg" alt="Light Rays wallpaper with glowing beams" loading="lazy" width="896" height="1540"></div><div class="notch"></div></div>
+            <figcaption>Light Rays<span>Tap to steer a beam</span></figcaption>
+          </figure>
+        </div>
+
+        <div class="list" style="margin-top: 48px">
+          <article class="item">
+            <h3><span class="swatch" style="background: linear-gradient(135deg,#1a3a5c,#22e4ff)"></span>Water Ripple</h3>
+            <p>Touch-reactive water over a pond or your own photo, with light that bends through the waves.</p>
+          </article>
+          <article class="item">
+            <h3><span class="swatch" style="background: linear-gradient(135deg,#ffb44d,#5a3b7a)"></span>Time of Day</h3>
+            <p>A painted valley that moves from dawn to night. New image collections arrive without an update.</p>
+          </article>
+          <article class="item">
+            <h3><span class="swatch" style="background: linear-gradient(135deg,#425a7a,#9fb6cf)"></span>Rain on Glass <span class="tag">Unlock</span></h3>
+            <p>Raindrops run down a fogged window over your photo. Swipe to wipe the glass clear.</p>
+          </article>
+          <article class="item">
+            <h3><span class="swatch" style="background: linear-gradient(135deg,#1fd8a0,#5a3fd0)"></span>Aurora <span class="tag">Unlock</span></h3>
+            <p>Northern lights drift across the sky. Tap to send a pulse through them. Three colour themes.</p>
+          </article>
+          <article class="item">
+            <h3><span class="swatch" style="background: linear-gradient(135deg,#ff7a18,#ffd23f)"></span>Lava Lamp</h3>
+            <p>Warm wax rises, merges and splits. Touch the lamp to release a bubble.</p>
+          </article>
+          <article class="item">
+            <h3><span class="swatch" style="background: linear-gradient(135deg,#ff2bd6,#22e4ff)"></span>Light Rays <span class="tag">Unlock</span></h3>
+            <p>Glowing beams bounce off the edges. Tap to steer one; set colour, glow, count and speed.</p>
+          </article>
+          <article class="item">
+            <h3><span class="swatch" style="background: linear-gradient(135deg,#2f3b1c,#f5d76e)"></span>Fireflies</h3>
+            <p>Fireflies gather around your finger after dusk; sunlit dust drifts through the day.</p>
+          </article>
+          <article class="item">
+            <h3><span class="swatch" style="background: linear-gradient(135deg,#d9c79e,#8a7a5a)"></span>Zen Garden</h3>
+            <p>Rake patterns into the sand with your finger and watch them slowly settle.</p>
+          </article>
+          <article class="item">
+            <h3><span class="swatch" style="background: linear-gradient(135deg,#0b1030,#8fa8ff)"></span>Starfield</h3>
+            <p>The real night sky above you right now. Tap to reveal the constellations.</p>
+          </article>
+          <article class="item">
+            <h3><span class="swatch" style="background: linear-gradient(135deg,#5a6b85,#c8d6e8)"></span>Live Weather Sky <span class="tag">Unlock</span></h3>
+            <p>Your actual weather, live: clouds, rain, snow, fog and storms over the valley.</p>
+          </article>
+          <article class="item">
+            <h3><span class="swatch" style="background: linear-gradient(135deg,#7b5cff,#ff2bd6)"></span>Music Visualiser</h3>
+            <p>An orb, a skyline or flowing waves that pulse to whatever your phone is playing.</p>
+          </article>
+          <article class="item">
+            <h3><span class="swatch" style="background: linear-gradient(135deg,#3a2d5c,#ffb0a0)"></span>Tilt Depth</h3>
+            <p>Your photo in 3D: the subject floats above the background and shifts as you tilt.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="why-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="why-title">Beautiful all day, without the battery guilt.</h2>
+        </div>
+        <div class="features">
+          <article class="feature">
+            <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="2.4" fill="#22e4ff"/><circle cx="12" cy="12" r="6" fill="none" stroke="#7b5cff" stroke-width="1.8"/><circle cx="12" cy="12" r="10" fill="none" stroke="#ff2bd6" stroke-width="1.4" opacity=".7"/></svg></div>
+            <h3>Made to be touched</h3>
+            <p>Ripples, pulses, rakes and beams that answer your finger on the home screen, not just in a preview.</p>
+          </article>
+          <article class="feature">
+            <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="16" height="10" rx="2.5" fill="none" stroke="#22e4ff" stroke-width="1.8"/><rect x="20" y="10" width="1.8" height="4" rx=".9" fill="#22e4ff"/><path d="M11.5 8.5 8.5 12.6h3l-1 3 3.2-4.3h-3l.8-2.8Z" fill="#ffc94d"/></svg></div>
+            <h3>Easy on the battery</h3>
+            <ul>
+              <li>Draws only while on screen</li>
+              <li>Rests completely when nothing moves</li>
+              <li>Battery saver mode on by default</li>
+            </ul>
+          </article>
+          <article class="feature">
+            <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8 4.5 5.8v5.5c0 4.6 3.1 8.6 7.5 9.9 4.4-1.3 7.5-5.3 7.5-9.9V5.8L12 2.8Z" fill="none" stroke="#7b5cff" stroke-width="1.8"/><path d="m8.6 12 2.4 2.4 4.6-4.8" fill="none" stroke="#22e4ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <h3>Private by design</h3>
+            <ul>
+              <li>No ads, no account</li>
+              <li>Location optional and approximate</li>
+              <li>Your photos stay on your phone</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="alt" aria-labelledby="pricing-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="pricing-title">Simple pricing. No subscriptions.</h2>
+          <p>Try every wallpaper full screen first. Pay once only for the ones you want to keep.</p>
+        </div>
+        <div class="pricing">
+          <article class="plan">
+            <h3>Free</h3>
+            <div class="big">8</div>
+            <p class="sub">wallpapers, free forever</p>
+            <ul>
+              <li>Water Ripple, Time of Day, Lava Lamp, Fireflies</li>
+              <li>Zen Garden, Starfield, Music Visualiser, Tilt Depth</li>
+              <li>All colour themes and settings</li>
+            </ul>
+          </article>
+          <article class="plan highlight">
+            <h3>One-time unlocks</h3>
+            <div class="big">4</div>
+            <p class="sub">premium wallpapers, bought individually</p>
+            <ul>
+              <li>Rain on Glass, Aurora, Light Rays, Live Weather Sky</li>
+              <li>Pay once, keep forever, no subscription</li>
+              <li>Restore on any phone with your Google account</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" aria-labelledby="faq-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="faq-title">Questions</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Will a live wallpaper drain my battery?</summary>
+            <p>VibeFluid draws frames only while the wallpaper is visible and stops entirely when nothing is moving. Battery saver mode, on by default, also caps frame rates and renders effects at a lighter resolution. You can switch to Performance mode in Settings if you prefer maximum smoothness.</p>
+          </details>
+          <details>
+            <summary>Why does the Music Visualiser ask for microphone access?</summary>
+            <p>Android requires that permission for any app that reacts to the sound your phone plays. VibeFluid reads your phone's audio output, never the microphone, and nothing is recorded or sent anywhere. If you'd rather not grant it, Random mode dances to its own beat with no access needed.</p>
+          </details>
+          <details>
+            <summary>What is location used for?</summary>
+            <p>Only Starfield and Live Weather Sky use it, to draw your sky and fetch your weather. It is optional, rounded to about 11 km and kept on your phone; without it the app uses your time zone. You can delete it any time in Settings.</p>
+          </details>
+          <details>
+            <summary>Which phones does it work on?</summary>
+            <p>Any phone running Android 8 or later. Some effects use Android 13's graphics features and fall back to a simpler look on older versions.</p>
+          </details>
+          <details>
+            <summary>I bought a wallpaper on another phone. How do I get it back?</summary>
+            <p>Open Settings → Restore purchases while signed in to the same Google account. Purchases are tied to your account, not your device.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing alt" aria-labelledby="closing-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="closing-title">Give your home screen a pulse.</h2>
+          <p>VibeFluid is coming soon to Google Play.</p>
+        </div>
+        <div class="cta">
+          <span class="btn btn-primary btn-soon" role="text">Coming soon to Google Play</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 ModoForge Labs</span>
+      <nav aria-label="Footer">
+        <a href="privacy/">Privacy policy</a>
+        <a href="mailto:modoforgelabs@gmail.com">Contact</a>
+        <a href="https://github.com/modoforgelabs">GitHub</a>
+      </nav>
+      <p class="credit">Weather data by <a href="https://open-meteo.com/">Open-Meteo.com</a> (CC BY 4.0). This website sets no cookies and loads nothing from third parties. Google Play is a trademark of Google LLC.</p>
+    </div>
+  </footer>
+
+  <script src="assets/ripples.js" defer></script>
+</body>
+</html>
