@@ -66,8 +66,6 @@ img { max-width: 100%; display: block; }
 .btn-primary:hover { color: #0b0614; transform: translateY(-1px); box-shadow: 0 14px 36px rgba(123, 92, 255, .45); }
 .btn-ghost { border-color: var(--line); color: var(--text); background: rgba(255, 255, 255, .03); }
 .btn-ghost:hover { color: var(--text); border-color: var(--violet); }
-.btn-soon { cursor: default; }
-.btn-soon:hover { transform: none; }
 .btn svg { width: 20px; height: 20px; flex: none; }
 
 /* ---------- Hero ---------- */
@@ -140,6 +138,14 @@ section { padding: 84px 0; }
   .gallery { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: min(46vw, 220px); overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px; margin: 0 -20px; padding-left: 20px; padding-right: 20px; }
   .gallery figure { scroll-snap-align: start; }
 }
+
+/* Time of Day scenes */
+.scenes { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; }
+.scenes figure { margin: 0; }
+.scenes img { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 16px; border: 1px solid var(--line); background: var(--surface); }
+.scenes figcaption { margin-top: 8px; font-size: .9rem; font-weight: 600; text-align: center; }
+@media (max-width: 960px) { .scenes { grid-template-columns: repeat(4, 1fr); } }
+@media (max-width: 600px) { .scenes { grid-template-columns: repeat(3, 1fr); gap: 10px; } .scenes figcaption { font-size: .8rem; } }
 
 /* Wallpaper list */
 .list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
