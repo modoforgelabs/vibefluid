@@ -202,6 +202,17 @@ section { padding: 84px 0; }
 .site-footer a:hover { color: var(--text); }
 .site-footer .credit { width: 100%; font-size: .85rem; opacity: .8; }
 
+/* Footer tags: each links to the part of the page about it. */
+.footer-tags { width: 100%; padding-bottom: 24px; margin-bottom: 8px; border-bottom: 1px solid var(--line); }
+.footer-title { margin: 0 0 14px; font-size: .95rem; font-weight: 600; color: var(--text); letter-spacing: .01em; }
+.tags { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.tags a { display: inline-block; padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); font-size: .85rem; line-height: 1.3; color: var(--muted); text-decoration: none; transition: color .15s, border-color .15s; }
+.tags a:hover, .tags a:focus-visible { color: var(--text); border-color: var(--violet); }
+@media (max-width: 600px) { .tags { gap: 6px; } .tags a { padding: 5px 10px; font-size: .8rem; } }
+
+/* Links into the page land below the sticky header. */
+[id] { scroll-margin-top: 84px; }
+
 /* ---------- Document pages (privacy) ---------- */
 .doc { max-width: 780px; padding: 48px 20px 80px; }
 .doc h1 { font-size: clamp(2rem, 4.4vw, 2.8rem); line-height: 1.1; margin: 0 0 10px; }
