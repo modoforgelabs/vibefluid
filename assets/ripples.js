@@ -5,7 +5,7 @@
   if (!canvas || !canvas.getContext) return;
   const ctx = canvas.getContext("2d");
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const colors = ["34,228,255", "123,92,255", "255,43,214"];
+  const colors = ["180,240,210", "208,188,255", "255,201,168"];
   const rings = [];
   let width = 0, height = 0, dpr = 1, running = false, lastMove = 0;
 
