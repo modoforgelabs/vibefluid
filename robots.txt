@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://modoforgelabs.github.io/vibefluid/sitemap.xml
+Sitemap: https://modoforgelabs.app/vibefluid/sitemap.xml

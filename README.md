@@ -2,8 +2,8 @@
 
 Website for **VibeFluid**, interactive live wallpapers for Android by ModoForge Labs.
 
-- Website: https://modoforgelabs.github.io/vibefluid/
-- Privacy policy: https://modoforgelabs.github.io/vibefluid/privacy/
+- Website: https://modoforgelabs.app/vibefluid/
+- Privacy policy: https://modoforgelabs.app/vibefluid/privacy/
 - Contact: modoforgelabs@gmail.com
 
 Plain HTML and CSS with one small script, served by GitHub Pages. No build step, no cookies and
